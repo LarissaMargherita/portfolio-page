@@ -9,6 +9,9 @@
     <!--Box Icons-->
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
     <!--Navbar-->
@@ -33,9 +36,53 @@
             <i class='bx bx-caret-down' ></i>
         </div>
     </header>
+    
     <!--Home-->
-    <section class="home" id="home"></section>
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!--Slide 1-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>deliciously</span>
+                    <h1>Wähle <br> das Beste <br>Rezept</h1>
+                    <a href="#" class="btn">Kochsession starten<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/home1.jpg" alt="">
 
+            </div>
+        
+            <!--Slide 2-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>deliciously</span>
+                    <h1>Wähle <br> das Beste <br>Rezept</h1>
+                    <a href="#" class="btn">Kochsession starten<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/Mehl&Ei.jpg" alt="">
+
+            </div>
+
+            <!--Slide 3-->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <span>deliciously</span>
+                    <h1>Wähle <br> das Beste <br>Rezept</h1>
+                    <a href="#" class="btn">Kochsession starten<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/KindMitOma.jpg" alt="">
+
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </section>
+      <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--Link to JS-->
+    <script src="main.js"></script>
 
 </body>
 </html>
