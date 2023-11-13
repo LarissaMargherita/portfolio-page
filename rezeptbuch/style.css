@@ -66,6 +66,11 @@ header{
     border-radius: 50%;
 }
 
+.profile span{
+    font-size: 13px;
+    font-weight: 500;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -103,30 +108,12 @@ header{
     display: none;
 }
 
-/*
 .container{
-    position:-ms-page;
+    position:relative;
     width: 100%;
     min-height: 640px;
     display: flex;
     align-items: center;
-    background: url(img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-}
-*/
-.container {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    min-height: 640px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: left; /* Text links ausrichten */
     background: url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,21 +121,17 @@ header{
     overflow: hidden;
 }
 
-.container img {
-    width: 100%;
-    max-width: 400px;
-    position: absolute;
-    
-    right: 5%;
-}
-/*
 .container img{
-    width: 400px;
-    position: absolute;
-    bottom: -500px;
-    right: 200px;
+    max-height: 90%;
+    max-width: 45%;
+    width:auto;
+    height:auto;
+    position:absolute;
+    right: 10%;
+    align-self: auto;
+    bottom: 30px;
 }
-*/
+
 
 .home {
     margin-top: 80px;
@@ -167,14 +150,6 @@ header{
     margin-bottom: 1rem;
 }
 
-
-.home-text {
-    position: relative;
-    z-index: 1;
-    padding: 0 20px;
-    margin-top: 50px; /* Ändern Sie den oberen Abstand des Textes */
-}
-
 .btn{
     margin-top: 20px;
     padding: 0.6rem 1rem;
@@ -187,15 +162,4 @@ header{
     justify-content: space-between;
     column-gap: 00.5rem;
     max-width: 160px;
-}
-
-@media only screen and (max-width: 768px) {
-    .container img {
-        max-width: 100%;
-        bottom: -200px;
-    }
-
-    .home-text {
-        padding: 0 10px;
-    }
 }
