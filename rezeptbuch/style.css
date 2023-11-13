@@ -46,7 +46,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--bg-color);
+    background: var(--darkgreen-color);
     box-shadow: 0 8px 11px rgb(14 55 54/ 15%);
     padding: 20px 100px;
     transition: 0.5s;
@@ -74,14 +74,15 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 50px;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--fuxia-color);
     column-gap: 0.5rem;
+    font-family: 'Great Vibes', cursive;
 }
 .logo .bx{
-    font-size: 24px;
-    color: var(--flowerrose-color);
+    font-size: 50px;
+    color: var(--fuxia-color);
 }
 
 .navbar{
@@ -91,8 +92,9 @@ header{
 .navbar a{
     font-size: 1rem;
     font-weight: 500;
-    color: var(--text-color);
+    color: var(--bg-color);
     padding: 0.5rem 1rem;
+    font-family: 'Indie Flower', cursive;
 }
 .navbar a:hover, .navbar .home-active{
     background: var(--fuxia-color);
@@ -132,26 +134,26 @@ header{
     bottom: 30px;
 }
 
-
-.home {
-    margin-top: 80px;
+.home-text{
+    align-items: center;
+    padding: 0 60px;
 }
-
 
 .home-text span{
     font-weight: 400;
-    text-transform: uppercase;
+    font-size: 45px;
     color: var(--bordeauxred-color);
+    font-family: 'Great Vibes', cursive;
 }
 
 .home-text h1{
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    margin-top: 30%;
 }
 
 .btn{
-    margin-top: 20px;
     padding: 0.6rem 1rem;
     background: var(--fuxia-color);
     color: var(--bg-color);
@@ -162,4 +164,13 @@ header{
     justify-content: space-between;
     column-gap: 00.5rem;
     max-width: 160px;
+}
+
+.btn .bx{
+    padding: 4px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    font-size: 20px;
+    margin: auto;
 }
