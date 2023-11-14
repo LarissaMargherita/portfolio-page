@@ -174,3 +174,43 @@ header{
     font-size: 20px;
     margin: auto;
 }
+
+.btn:hover{
+    background: var(--flowerrose-color);
+    transition: 0.2s ease;
+}
+
+.swiper-button-next{
+    background: url(img/rightarrow.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.swiper-button-next::after{
+    display: none;
+}
+
+.swiper-button-prev{
+    background: url(img/leftarrow.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.swiper-button-prev::after{
+    display: none;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
