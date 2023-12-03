@@ -1,9 +1,7 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&family=Noto+Color+Emoji&display=swap');
 *{
-    font-family: 'Great Vibes', cursive;
     font-family: 'Indie Flower', cursive;
-    font-family: 'Noto Color Emoji', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,6 +21,16 @@
     --fuxia-color: #b72552;
     --text-color: #000;
     --bg-color: #fff;
+}
+/*Custom Scroll Bar*/
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background: #003844ca;
+}
+::-webkit-scrollbar-thumb{
+    width: 0.5rem;
+    background: var(--darkgreen-color);
+    border-radius: 5rem;
 }
 
 section{
@@ -360,4 +368,78 @@ header{
 }
 .about-text p{
     margin: 0.5rem 0 1rem;
+}
+
+.footer{
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    background: #faeaea;
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+.footer-box p{
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1rem;
+}
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.social .bx{
+    padding: 10px;
+    background: var(--bg-color);
+    color: var(--fuxia-color);
+    border-radius: 5rem;
+    font-size: 20px;
+}
+.social .bx:hover{
+    background: var(--fuxia-color);
+    color: var(--bg-color);
+    transition: 0.2s all linear;
+}
+.footer-box h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.footer-box a{
+    color: #868a92;
+    margin-bottom: 1rem;
+}
+.footer-box a:hover{
+    color: var(--bordeauxred-color);
+}
+.footer-box form{
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.footer-box form input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.footer-box form .bx{
+    font-size: 20px;
+    color: var(--flowerrose-color);
+    cursor: pointer;
+}
+.footer-box form .bxs-envelope{
+    color: var(--bordeauxred-color);
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
 }
