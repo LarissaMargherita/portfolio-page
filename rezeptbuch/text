@@ -2,3 +2,76 @@ Responsives Rezeptbuch Web-Applikation
 Sammle alle <br> deine Lieblingsrezepte <br>
 Geh durch die besten <br><span>Rezeptvorschläge
 Frisch ist immer am <br>besten 
+
+
+<script>
+    const accordion = document.getElementsByClassName("content");
+
+    for (i = 0; i < accordion.length; i++) {
+      accordion[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+      });
+    }
+  </script>
+
+  <div id="first_section_particles" class="snowflakes" aria-hidden="true">
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+    <div class="snowflake flower">❁</div>
+  </div>
+
+  <div
+    id="second_section_particles"
+    class="snowflakes"
+    aria-hidden="true"
+  >
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+    <div class="snowflake sun">☀</div>
+  </div>
+
+  <div id="third_section_particles" class="snowflakes" aria-hidden="true">
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+    <div class="snowflake">🍂</div>
+  </div>
+
+  <div
+    id="fourth_section_particles"
+    class="snowflakes"
+    aria-hidden="true"
+  >
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+  </div>
+
+  
