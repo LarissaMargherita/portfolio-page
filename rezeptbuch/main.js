@@ -65,3 +65,14 @@ setTimeout(() => {
   const h1 = document.getElementById("twoSec");
   stars.removeChild(h1);
 }, 2000);
+
+var swiper = new Swiper(".swiper2", {
+  effect: "cards",
+  grabCursor: true,
+  initialSlide: 2,
+  loop: true,
+  rotate: true,
+  mousewheel: {
+  invert: false,
+},
+});
