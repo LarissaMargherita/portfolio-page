@@ -233,7 +233,7 @@ header{
     color: var(--babyrose-color);
 }
 i, .bx bx-caret-down{
-    color: var(--babyrose-color);
+    color: var(--fuxia-color);
 }
 .logo{
     display: flex;
@@ -243,7 +243,7 @@ i, .bx bx-caret-down{
     color: var(--fuxia-color);
     column-gap: 0.5rem;
 }
-.logo .bx{
+.logo .Mhhh{
     font-size: 50px;
     color: var(--fuxia-color);
 }
@@ -420,7 +420,7 @@ section{
 }
 
 .categories-container .box h2{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -535,14 +535,34 @@ section{
     margin: 0.5rem 0 1rem;
     color: var(--bg-color);
 }
+.aboutimg{
+    width: auto;
+    height: auto;
+}
 .about img {
-    width: 600px;
+    max-width: 600px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
-    height: 600px;
+    max-height: 600px;
     display: flex;
 }
+
+.infostar{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--bg-color);
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .footer{
     max-width: 968px;

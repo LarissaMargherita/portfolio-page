@@ -23,13 +23,13 @@ const stars = document.getElementById("stars");
 const backG = document.getElementById("backG");
 
 // Create a function to generate a single star
-function generateStar(randomAngle = Math.floor(Math.random(100) * 360)) {
+function generateStar(randomAngle = Math.floor(Math.random(3000) * 360)) {
   const star = document.createElement("div");
   star.classList.add("singleStar");
 
   // Set the star's position and size
   const left = Math.floor(Math.random() * 100);
-  const top = Math.floor(Math.random() * 100);
+  const top = Math.floor(Math.random() * 230);
   const size = Math.floor(Math.random() * 4);
   star.style.width = size + "px";
   star.style.height = size + "px";
