@@ -587,7 +587,7 @@ section{
   }
   
   .about .swiper-slide:nth-child(6n) {
-    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), 
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
     no-repeat 50% 50% / cover;
   }
   
@@ -734,7 +734,6 @@ section{
     margin-right: auto;
     display: grid;
     gap: 1.5rem;
-    margin-top: 2rem;
     padding: 20px;
     align-items: center;
     justify-content: center;
