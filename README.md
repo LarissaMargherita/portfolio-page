@@ -3,14 +3,14 @@ BFH - EWEB Portfolio "Winter Recipe Site"
 
 About
 --------------
-Persönliches Rezeptbuch als "Winter" Thema
+Persönliches Rezeptbuch als *"Winter"* Thema
 In jedem Abschnitt finden sich unterschiedliche Unterthematiken
 Die Unterthemen müssten als eigenes Modul noch weiter ausgeführt werden
 
 Cover und Hintergrund
 --------------
-Cover: Schneeflocken über die ganze Seite
-Hintergrund: Sterne mit Sternschnuppeneffekt bei Hover oder Klick
+- **Cover:** Schneeflocken über die ganze Seite
+- **Hintergrund:** Sterne mit Sternschnuppeneffekt bei Hover oder Klick
 
 **1. Block**
 - Logo
