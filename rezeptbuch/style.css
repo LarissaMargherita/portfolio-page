@@ -1,3 +1,4 @@
+/*https://www.youtube.com/watch?v=qFVVCaOe6z8&t=3610s*/
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Indie+Flower&family=Noto+Color+Emoji&display=swap');
 *{
@@ -49,7 +50,7 @@ body{
     background: linear-gradient(to bottom, #020111 85%, #191621 100%);
 }
 
-/*Chasing Stars*/
+/*Chasing Stars - https://codepen.io/Abdelrahman-Abdullah/details/jOXxjEQ*/
 .section flex {
     margin: 0;
     position: relative;
@@ -116,7 +117,7 @@ animation: vanish 4000ms ease-in-out;
 
 
 
-/* customizable snowflake styling */
+/* customizable snowflake styling - https://codepen.io/codeconvey/pen/xRzQay*/
 .snowflake {
   color: #fff;
   font-size: 1em;
@@ -548,7 +549,7 @@ section{
     color: var(--bg-color);
 }
 
-/* SWIPER */
+/* SWIPER - https://codepen.io/ecemgo/pen/ZEVojzN */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 .swiper2 {
     width: 250px;

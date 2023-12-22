@@ -1,3 +1,4 @@
+//https://www.youtube.com/watch?v=qFVVCaOe6z8&t=3610s
 //Swiper
 // Swiper-Konfiguration für das Home-Slider
 var homeSliderElement = document.querySelector(".home");
@@ -17,7 +18,7 @@ if (homeSliderElement) {
     });
 }
 
-//Chasing Stars
+//Chasing Stars - https://codepen.io/Abdelrahman-Abdullah/details/jOXxjEQ
 // Get the stars and background elements
 const stars = document.getElementById("stars");
 const backG = document.getElementById("backG");
@@ -66,6 +67,7 @@ setTimeout(() => {
   stars.removeChild(h1);
 }, 2000);
 
+//SWIPER - https://codepen.io/ecemgo/pen/ZEVojzN
 var swiper = new Swiper(".swiper2", {
   effect: "cards",
   grabCursor: true,
